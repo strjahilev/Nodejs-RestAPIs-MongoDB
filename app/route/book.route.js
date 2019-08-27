@@ -16,4 +16,4 @@ module.exports = function(app) {
  
     // Delete a Book with Id
     app.delete('/api/books/:bookId', books.delete);
-}
+};
